@@ -52,6 +52,6 @@ export async function uploadVideo(app: FastifyInstance) {
       },
     });
 
-    return reply.status(200).send(video);
+    return reply.status(200).send({ video });
   });
 }
