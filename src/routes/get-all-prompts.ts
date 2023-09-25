@@ -5,8 +5,6 @@ export async function getAllPrompts(app: FastifyInstance) {
   app.get("/prompts", async (_, reply) => {
     const prompts = await prisma.prompt.findMany();
 
-    return reply.send({
-      prompts,
-    });
+    return reply.send(prompts);
   });
 }
