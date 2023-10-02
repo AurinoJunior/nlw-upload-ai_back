@@ -33,11 +33,11 @@ Upload AI é uma aplicação que possibilita realizar upload de videos e por mei
 
 ## :video_game: Iniciando o projeto
 
-1. Intale as dependencia usando ´pnpm install´
-2. Suba o servidor usando ´pnpm run dev´
+1. Intale as dependencia usando `pnpm install`
+2. Suba o servidor usando `pnpm run dev`
 3. O projeto estará disponivel no browser no endereço http://localhost:5173/
 
-Na raiz do projeto existe um arquivo com a coleção de requests para o insomnia ´insomnia.json´.
+Na raiz do projeto existe um arquivo com a coleção de requests para o insomnia `insomnia.json`.
 
 ## :page_with_curl: Licença
 
