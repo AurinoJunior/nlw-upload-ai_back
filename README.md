@@ -16,6 +16,7 @@
 - [Contexto](#blue_book-contexto)
 - [Tecnologias](#computer-tecnologias)
 - [Iniciando o projeto](#video_game-iniciando-o-projeto)
+- [Como usar](#beers-como-usar)
 - [Licença](#page_with_curl-licença)
 
 ## :blue_book: Contexto
@@ -39,6 +40,15 @@ Upload AI é uma aplicação que possibilita realizar upload de videos e por mei
 4. O projeto estará disponivel no browser no endereço http://localhost:5173/
 
 Na raiz do projeto existe um arquivo com a coleção de requests para o insomnia `insomnia.json`.
+
+## :beers: Como usar
+
+1. Rode as migrations da aplicação com `npx prisma migrate dev`
+2. Importe o arquivo do insomnia no software para fazer as requests.
+3. Na rota upload videos, adicione no campo `filename` o seu .mp3
+4. Para ver o banco de dados rode `pnpm run studio`
+5. Pegue o ID do audio que acabou de subir para joga na rota create transcription.
+6. A request pode demorar um pouco mas o retorno irá te trazer a transcrição completa do audio.
 
 ## :page_with_curl: Licença
 
